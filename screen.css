@@ -1,1 +1,92 @@
-/* Add screen styles below */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/c4-image.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.heading {
+    margin-top: 300px;
+    margin-right: 50px;
+    width: 20%;
+    float: right;
+}
+
+.portfolio {
+    background-color: transparent;
+    border: 2px solid black; 
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.portfolio:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #333; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.name {
+    color: black;
+}
+
+.role {
+    color: white;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.menu-profile {
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.menu-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 200px; /* Adjust to match menu width */
+    padding: 20px; /* Add padding to content area */
+}
+
